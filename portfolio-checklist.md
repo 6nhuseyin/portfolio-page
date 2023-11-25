@@ -13,7 +13,7 @@
   - [x] add the unzipped starter code to your local repository.
   - [x] push the initial code to github.
 
-- [ ] **understand requirements and plan**
+- [x] **understand requirements and plan**
   - [x] review acceptance criteria and grading requirements.
   - [x] create a wireframe of your portfolio.
   - [x] define color scheme, fonts, and images.
