@@ -6,45 +6,33 @@
 
 - [ ] **set up environment: create and clone github repository**
   - [x] install a code editor (e.g., visual studio code).
-  - [ ] create a new github repository with a unique name.
-  - [ ] clone the repository to your local machine.
+  - [x] create a new github repository with a unique name.
+  - [x] clone the repository to your local machine.
 
-- [ ] **add starter code to repository**
-  - [ ] add the unzipped starter code to your local repository.
-  - [ ] push the initial code to github.
+- [x] **add starter code to repository**
+  - [x] add the unzipped starter code to your local repository.
+  - [x] push the initial code to github.
 
 - [ ] **understand requirements and plan**
-  - [ ] review acceptance criteria and grading requirements.
-  - [ ] create a wireframe of your portfolio.
-  - [ ] define color scheme, fonts, and images.
-  - [ ] **agile review:** evaluate the wireframe for adjustments.
+  - [x] review acceptance criteria and grading requirements.
+  - [x] create a wireframe of your portfolio.
+  - [x] define color scheme, fonts, and images.
 
-- [ ] **initial html structure**
+- [ ] **html structure**
   - [ ] create the basic html structure for your portfolio, including navigation links.
   - [ ] include your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you.
 
 - [ ] **check accessibility and semantic html**
   - [ ] verify accessibility features.
   - [ ] study semantic html and alt attributes.
+  - [ ] implement semantic elements consistently.
+  - [ ] organize html elements logically.
 
 - [ ] **fix background image**
   - [ ] correct the path of the background image.
   - [ ] ensure it fits the screen.
-
-- [ ] **add semantic html elements**
-  - [ ] implement semantic elements consistently.
-
-- [ ] **structure html logically**
-  - [ ] organize html elements logically.
-
-- [ ] **add alt attributes to images**
   - [ ] provide descriptive alt text for all image and icon elements.
-
-- [ ] **use sequential headings**
   - [ ] review and adjust heading order for logical hierarchy.
-
-- [ ] **set descriptive title element**
-  - [ ] ensure a concise and descriptive title element in the head.
 
 - [ ] **css setup**
   - [ ] set up css files and apply basic styling to your html structure.
