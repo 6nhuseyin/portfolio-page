@@ -29,22 +29,20 @@
 
 - [ ] **check accessibility and semantic html**
 
-  - [ ] verify accessibility features.
-  - [ ] study semantic html and alt attributes.
-  - [ ] implement semantic elements consistently.
-  - [ ] organize html elements logically.
+  - [x] verify accessibility features.
+  - [x] implement semantic elements consistently.
+  - [x] organize html elements logically.
 
 - [ ] **fix background image**
 
   - [ ] correct the path of the background image.
   - [ ] ensure it fits the screen.
-  - [ ] provide descriptive alt text for all image and icon elements.
-  - [ ] review and adjust heading order for logical hierarchy.
+  - [x] provide descriptive alt text for all image and icon elements.
+  - [x] review and adjust heading order for logical hierarchy.
 
 - [ ] **css setup**
 
   - [ ] set up css files and apply basic styling to your html structure.
-  - [ ] **pareto principle:** identify critical css styles for the most impact.
   - [ ] optimize those styles for visual impact.
   - [ ] **agile review:** review and improve initial css styles.
 

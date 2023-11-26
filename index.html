@@ -5,14 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Huseyin ALTIN //Front End Developer</title>
+  <title>Huseyin ALTIN - Front End Developer</title>
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
-  <!-- header / nav -->
+  
+    <!-- header / nav -->
   <header>
-    <h1>ALTIN HUSEYIN</h1>
+    <h1><a href="#about-me">ALTIN HUSEYIN</a></h1>
     <nav>
       <ul>
         <li><a href="#about-me">About me</a></li>
@@ -21,43 +22,73 @@
         <li><a href="#contact-me">Contact</a></li>
       </ul>
     </nav>
-    <!-- about me -->
-    <section class="about-me" id="about-me">
-        <h2>Front End Developer</h2>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
-          literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
-          College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
-          and
-          going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum
-          comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
-          Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the
-          Renaissance.
-          The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-          <img src="/images/Huseyin.jpg" alt="Web Developer: Huseyin ALTIN">
-    </section>
   </header>
+  <section>
+    <!-- about me -->
+    <section class="name" id="about-me">
+      <section>
+        <h1>
+          Hi,
+        </h1>
+        <h1>
+          I'm <span>Huseyin</span>
+        </h1>
+        <h1>
+          Front End Developer.
+        </h1>
+      </section>
+      <section>
+        <img src="/images/Huseyin.jpg" alt="Huseyin ALTIN - Front end developer ">
+      </section>
+    </section>
+    <section class="about-me">
+      <p>
+        I'm a Front End Developer, I love to create beautiful and functional websites.
+        <!--<h2>Huseyin ALTIN - Front End Developer</h2>-->
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+        literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+        College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+        and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem
+        Ipsum
+        comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+        Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the
+        Renaissance.
+      </p>
+    </section>
+  </section>
 
   <main class="page-wrapper">
     <!-- portfolio container -->
     <section class="projects" id="works">
-      <h2>Works</h2>
-      <section>
-        <div id="horiseon"></div>
-        <div id="portfolyo"></div>
-        <div id="loadingt"></div>
-      </section>
+      <h2>My Works</h2>
+      <article>
+        <h3 id="horiseon">Horiseon</h3>
+        <p>Description of the Horiseon project.</p>
+        <img src="/images/02-portfolio-1.jpg">
+      </article>
+      <article>
+        <h3 id="portfolyo">Portfolyo</h3>
+        <p>Description of the Portfolyo project.</p>
+        <img src="/images/02-portfolio-2.jpg">
+      </article>
+      <article>
+        <h3 id="loading">Loadingt</h3>
+        <p>Description of the Loadingt project.</p>
+        <img src="images/02-portfolio-3.jpg">
+      </article>
     </section>
 
     <!-- contact -->
     <footer class="page-section contact" id="contact">
-      <div class="contact" id="contact-me">
+      <section class="contact" id="contact-me">
         <h2>Contact Me</h2>
-        <p><a href="https://github.com/6nhuseyin" target="_blank">github</a></p>
+        <p><a href="https://github.com/6nhuseyin" target="_blank"  rel="noopener noreferrer">github</a></p>
         <p><a href="mailto:huseyin6n@outlook.com">email</a></p>
-      </div>
-      <div class="resume" id="download-cv">
+      </section>
+      <section class="resume" id="download-cv">
+        <h2>Download CV</h2>
         <button><a href="/downloads/Resume.pdf" download>download CV</a></button>
-      </div>
+      </section>
     </footer>
   </main>
 </body>

@@ -7,17 +7,22 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color: rgb(90, 153, 255);
 }
 
-.about-me{
+.name{
   display: flex;
   align-items: center;
 }
 
+.name span {
+  color: rgb(99, 19, 7);
+}
+
 img {
   display: block;
-  height: 220px;
-  width: 220px;
+  height: 123px;
+  width: 123px;
   margin-left: auto;
   margin-right: auto;
   }
@@ -29,8 +34,13 @@ h4,
 h5,
 h6 {
   margin: 0;
+  color: rgb(33, 40, 63);
 }
 
+h1 {
+  font-size: xx-large;
+}
 p {
   margin: 0;
+  color: rgb(33, 40, 63);
 }
