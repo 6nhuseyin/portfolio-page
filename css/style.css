@@ -5,27 +5,71 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
-  background-color: rgb(90, 153, 255);
+  background-color: #fff4f1;
+  
 }
 
-.name{
+main {
+  width: 100%;
+}
+header {
+  display: flex;
+  padding: 11px;
+  text-align: center;
+  color: #fff;
+}
+
+#big-title {
+  flex: 3;
+  padding: 1.5%;
+  text-align: left;
+  color: #fff;
+}
+.nav-items {
+  flex: 2;
+  display: flex;
+  font-size: larger;
+  justify-content: space-around;
+  align-items: last baseline;
+}
+
+.about-container {
   display: flex;
   align-items: center;
+  padding: 1%;
 }
 
-.name span {
+#name {
+  flex: 3;
+}
+
+#name span {
   color: rgb(99, 19, 7);
 }
 
+.about-me {
+  padding: 2%;
+  flex: 7;
+}
+
+.avatar {
+  flex: 1;
+}
+
+/*.page-wrapper {
+  padding: 2%;
+}*/
+
 img {
   display: block;
-  height: 123px;
-  width: 123px;
+  height: 135px;
+  width: 135px;
   margin-left: auto;
   margin-right: auto;
-  }
+}
 
 h1,
 h2,
@@ -43,4 +87,32 @@ h1 {
 p {
   margin: 0;
   color: rgb(33, 40, 63);
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
+.page-section-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+
+}
+
+.contact, .resume {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ffb3ae;
+}
+
+.contact {
+  background-color: #f47068;
+}
+
+.contact h2, .contact p, .resume h2, .resume button {
+  margin-right: 10px;
 }

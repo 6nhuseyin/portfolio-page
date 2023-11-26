@@ -27,16 +27,16 @@
   - [x] create the basic html structure for your portfolio, including navigation links.
   - [x] include your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you.
 
-- [ ] **check accessibility and semantic html**
+- [x] **check accessibility and semantic html**
 
   - [x] verify accessibility features.
   - [x] implement semantic elements consistently.
   - [x] organize html elements logically.
 
-- [ ] **fix background image**
+- [x] **fix background image**
 
-  - [ ] correct the path of the background image.
-  - [ ] ensure it fits the screen.
+  - [x] correct the path of the background image.
+  - [x] ensure it fits the screen.
   - [x] provide descriptive alt text for all image and icon elements.
   - [x] review and adjust heading order for logical hierarchy.
 
