@@ -1,70 +1,84 @@
 # change log
 
 - [x] **download and unzip starter code**
+
   - [x] download the provided starter code.
   - [x] unzip it to a local directory.
 
 - [ ] **set up environment: create and clone github repository**
+
   - [x] install a code editor (e.g., visual studio code).
   - [x] create a new github repository with a unique name.
   - [x] clone the repository to your local machine.
 
 - [x] **add starter code to repository**
+
   - [x] add the unzipped starter code to your local repository.
   - [x] push the initial code to github.
 
 - [x] **understand requirements and plan**
+
   - [x] review acceptance criteria and grading requirements.
   - [x] create a wireframe of your portfolio.
   - [x] define color scheme, fonts, and images.
 
 - [ ] **html structure**
-  - [ ] create the basic html structure for your portfolio, including navigation links.
-  - [ ] include your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you.
+
+  - [x] create the basic html structure for your portfolio, including navigation links.
+  - [x] include your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you.
 
 - [ ] **check accessibility and semantic html**
+
   - [ ] verify accessibility features.
   - [ ] study semantic html and alt attributes.
   - [ ] implement semantic elements consistently.
   - [ ] organize html elements logically.
 
 - [ ] **fix background image**
+
   - [ ] correct the path of the background image.
   - [ ] ensure it fits the screen.
   - [ ] provide descriptive alt text for all image and icon elements.
   - [ ] review and adjust heading order for logical hierarchy.
 
 - [ ] **css setup**
+
   - [ ] set up css files and apply basic styling to your html structure.
   - [ ] **pareto principle:** identify critical css styles for the most impact.
   - [ ] optimize those styles for visual impact.
   - [ ] **agile review:** review and improve initial css styles.
 
 - [ ] **responsive design**
+
   - [ ] begin implementing responsive design using media queries.
   - [ ] focus on desktop screen layout.
   - [ ] **agile review:** assess css for responsive design and refine as needed.
 
 - [ ] **consolidate and organize css**
+
   - [ ] refactor css selectors and properties for efficiency.
   - [ ] organize css to match html structure.
   - [ ] consolidate, group, and remove redundant styles.
   - [ ] improve code readability.
 
 - [ ] **add comments**
+
   - [ ] include comments in html to explain structure.
   - [ ] comment css to describe sections and styling rules.
 
 - [ ] **optimize for seo results**
+
   - [ ] add necessary meta tags.
   - [ ] adjust html for seo.
 
 - [ ] **about section**
+
   - [ ] write and add content to the "about me" section.
   - [ ] style the section for visual appeal.
   - [ ] **agile review:** assess content alignment with goals.
 
 - [ ] **work/projects section**
+
   - [ ] create placeholders for work/projects.
   - [ ] implement titled images for applications.
   - [ ] style these elements.
@@ -72,30 +86,35 @@
   - [ ] **agile review:** review and refine work/projects section.
 
 - [ ] **larger image for first application**
+
   - [ ] implement larger image for the first application.
   - [ ] ensure the first application's image is larger than others.
   - [ ] **agile review:** review visual impact and functionality.
 
 - [ ] **smooth scrolling (agile review)**
+
   - [ ] implement smooth scrolling for navigation links.
   - [ ] test and review functionality.
   - [ ] **agile review:** thoroughly test and review smooth scrolling.
 
 - [ ] **deployment**
+
   - [ ] host your portfolio on github pages or another platform.
   - [ ] navigate to your github repository in the browser and then select the settings tab on the right side of the page.
-   - [ ] on the settings page, scroll down to the github pages section. then, in the section labeled source, select the main branch as your source.
+  - [ ] on the settings page, scroll down to the github pages section. then, in the section labeled source, select the main branch as your source.
   - [ ] deploy the application using github pages.
-  - [ ] ensure no load errors and that the application is accessible via the live url. 
+  - [ ] ensure no load errors and that the application is accessible via the live url.
   - [ ] navigate to `<your-github-username.github.io/your-repository-name>` and you will find that your new webpage has gone live! for example, if your github username is "lernantino" and the project is "css-demo-site", then your url would be `lernantino.github.io/css-demo-site`.
 
 - [ ] **documentation and submission**
+
   - [ ] create a detailed readme.md file in your repository.
   - [ ] include project description, screenshots, links, and code source information.
   - [ ] double-check acceptance criteria.
   - [ ] submit urls of deployed application and github repository.
 
 - [ ] **testing**
+
   - [ ] update the file structure and paths.
   - [ ] test on various devices and browsers for compatibility.
   - [ ] check that all application links function correctly.
@@ -114,7 +133,8 @@
 - [guide](#guide)
 - [project-title](#project-title)
 
-## Portfolio Page  
+## Portfolio Page
+
 ## credits
 
 Front-end web developer: Huseyin Altin
@@ -124,11 +144,12 @@ Front-end web developer: Huseyin Altin
 
 The following resources were instrumental in building my portfolio website:
 
+- [HTML Link Code](https://www.semrush.com/blog/html-link-code/) how to create effective HTML links, including information on anchor tags, link attributes, and SEO best practices.
+
 - [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) provided guidelines on how to create a comprehensive README.
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) offered quick reference to Markdown syntax used in the README file.
 - [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp) from W3Schools helped in understanding and implementing semantic HTML5 elements.
 - [Image Alt Attributes](https://www.w3schools.com/tags/att_img_alt.asp) on W3Schools explained the importance and proper use of `alt` attributes for images.
-
 
 ## technolgies used
 
@@ -143,10 +164,12 @@ The following resources were instrumental in building my portfolio website:
 # Project 2 Change Log
 
 ## Table of Contents (Optional)
+
 - [Guide](#guide)
 - [Project Title](#project-title)
 
 # Portfolio Page Development
+
 # My Portfolio Project
 
 ## Introduction
@@ -205,22 +228,22 @@ I've deployed my portfolio on GitHub Pages, so you can access it from anywhere. 
 # Project Title
 
 **Project Description**:
-This project is 
+This project is
 
 ## Motivation
 
 **Why We Built This Project**:
-We built ... because 
+We built ... because
 
 ## Problem Solved
 
 **What Problem Does TaskMaster Solve?**:
-... solves the problem of 
+... solves the problem of
 
 ## What We Learned
 
 **What We Learned**:
-Throughout the development of ., I gained valuable experience in 
+Throughout the development of ., I gained valuable experience in
 web application development, including front-end technologies.
 
 ## Standout Features
@@ -238,8 +261,9 @@ We plan to add the following features in future updates:
 
 ## Description
 
-This project involves ... 
-The objective is to 
+This project involves ...
+The objective is to
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE.md).
@@ -248,9 +272,6 @@ This project is licensed under the [MIT License](LICENSE.md).
 
 Feel free to reach out to me at [myemail@example.com](mailto:myemail@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/myprofile).
 
-
 ## Conclusion
 
 I hope you enjoy exploring my portfolio as much as I enjoyed creating it. It's a reflection of my journey as a web developer, and I look forward to what the future holds.
-
-
