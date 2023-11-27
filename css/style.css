@@ -93,26 +93,49 @@ p {
 a {
   text-decoration: none;
 }
+
+
+
 .page-section-contact {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-  
-
+  /*justify-content: space-between;*/
+  align-items: stretch;
 }
 
 .contact, .resume {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-around;
   background-color: #ffb3ae;
 }
 
+.resume {
+  background-color: #ffb3ae;
+  flex: 30%;
+  justify-content: space-around;
+}
+
 .contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 70%;
+  justify-content: left;
   background-color: #f47068;
 }
 
-.contact h2, .contact p, .resume h2, .resume button {
-  margin-right: 10px;
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 70%;
 }
+.contact h2 {
+  flex: 30% ;
+  margin: 1%;
+}
+.contact h2, .contact p, .resume h2, .resume button {
+  margin: 1%;
+}
+
