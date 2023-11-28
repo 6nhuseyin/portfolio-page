@@ -83,6 +83,7 @@ h6 {
 
 h1 {
   font-size: xx-large;
+  
 }
 p {
   margin: 0;
@@ -94,7 +95,82 @@ a {
   text-decoration: none;
 }
 
+.projects {
+  padding: 0 6px;
+  float: left;
+  width: 100%;
+}
 
+.project-content {
+  position: relative;
+  text-align: center;
+}
+
+.project-content img {
+  width: 100%;
+  display: block;
+}
+
+.project-content h3,
+.project-content p {
+  position: absolute;
+  width: 80%;
+  left: 20%;
+  margin: 3%;
+  padding: 0;
+}
+
+.project-content h3 {
+  position: relative;
+  left: 9%;
+  top: 17%; /* Adjust as needed */
+  color: white; /* Choose a color that stands out over your images */
+  font-size: xx-large;
+}
+
+.proce {
+  float: left;
+  width: 33.3333%;
+  padding: 0px;
+  text-align: center;
+}
+
+.proce img {
+  width: 80%;
+  height: auto;
+  border-radius: 7%;
+}
+
+#horiseon {
+  background-color: #1697a6;
+}
+
+#portfolyo {
+  background-color: #ffc24b;
+}
+
+#loading {
+  background-color: #0e606b;
+}
+
+@media only screen and (max-width: 700px) {
+  .projects {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .projects {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .page-section-contact {
   display: flex;
@@ -111,7 +187,7 @@ a {
 
 .resume {
   background-color: #ffb3ae;
-  flex: 30%;
+  flex: 35%;
   justify-content: space-around;
 }
 
@@ -129,10 +205,10 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  flex: 70%;
+  flex: 75%;
 }
 .contact h2 {
-  flex: 30% ;
+  flex: 25% ;
   margin: 1%;
 }
 .contact h2, .contact p, .resume h2, .resume button {
