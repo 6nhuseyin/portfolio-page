@@ -40,31 +40,31 @@
   - [x] provide descriptive alt text for all image and icon elements.
   - [x] review and adjust heading order for logical hierarchy.
 
-- [ ] **about section**
+- [x] **about section**
 
   - [x] write and add content to the "about me" section.
-  - [ ] style the section for visual appeal.
-  - [ ] **agile review:** assess content alignment with goals.
+  - [x] style the section for visual appeal.
+  - [x] **agile review:** assess content alignment with goals.
 
 - [ ] **work/projects section**
 
-  - [ ] create placeholders for work/projects.
-  - [x] implement titled images for applications.
-  - [ ] style these elements.
-  - [ ] ensure clicking application images leads to deployed applications.
-  - [ ] **agile review:** review and refine work/projects section.
+  - [x] create placeholders for work/projects.
+  - [x] implement titled images for projects.
+  - [x] style these elements.
+  - [x] ensure clicking application images leads to deployed applications.
+  - [x] **agile review:** review and refine work/projects section.
 
-- [ ] **css setup**
+- [x] **css setup**
 
-  - [ ] set up css files and apply basic styling to your html structure.
-  - [ ] optimize those styles for visual impact.
-  - [ ] **agile review:** review and improve initial css styles.
+  - [x] set up css files and apply basic styling to your html structure.
+  - [x] optimize those styles for visual impact.
+  - [x] **agile review:** review and improve initial css styles.
 
-- [ ] **responsive design**
+- [x] **responsive design**
 
-  - [ ] begin implementing responsive design using media queries.
-  - [ ] focus on desktop screen layout.
-  - [ ] **agile review:** assess css for responsive design and refine as needed.
+  - [x] begin implementing responsive design using media queries.
+  - [x] focus on desktop screen layout.
+  - [x] **agile review:** assess css for responsive design and refine as needed.
 
 - [ ] **consolidate and organize css**
 
