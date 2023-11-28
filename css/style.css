@@ -15,12 +15,15 @@ body {
 main {
   width: 100%;
 }
+
 header {
   display: flex;
-  padding: 11px;
+  padding: 5px;
   text-align: center;
   color: #fff;
+  align-items: center;
 }
+
 
 #big-title {
   flex: 3;
@@ -28,6 +31,7 @@ header {
   text-align: left;
   color: #fff;
 }
+
 .nav-items {
   flex: 2;
   display: flex;
@@ -59,9 +63,10 @@ header {
   flex: 1;
 }
 
-/*.page-wrapper {
-  padding: 2%;
-}*/
+.page-wrapper {
+  width: 100%;
+  text-align: center;
+}
 
 img {
   display: block;
@@ -83,7 +88,7 @@ h6 {
 
 h1 {
   font-size: xx-large;
-  
+
 }
 p {
   margin: 0;
@@ -96,7 +101,7 @@ a {
 }
 
 .projects {
-  padding: 0 6px;
+  /*padding: 0 6px;*/
   float: left;
   width: 100%;
 }
@@ -113,16 +118,17 @@ a {
 
 .project-content h3,
 .project-content p {
-  position: absolute;
+  position: relative;
   width: 80%;
   left: 20%;
   margin: 3%;
   padding: 0;
+  
 }
 
 .project-content h3 {
   position: relative;
-  left: 9%;
+  left: 5%;
   top: 17%; /* Adjust as needed */
   color: white; /* Choose a color that stands out over your images */
   font-size: xx-large;
@@ -131,14 +137,21 @@ a {
 .proce {
   float: left;
   width: 33.3333%;
-  padding: 0px;
+  padding: 0;
   text-align: center;
+}
+.proce {
+  float: left;
+  width: 33.3333%;
+  padding: 0;
+  text-align: center;
+  /* Add this if not already present */
 }
 
 .proce img {
-  width: 80%;
+  width: 100%;
   height: auto;
-  border-radius: 7%;
+ /* border-radius:7dvh;*/
 }
 
 #horiseon {
@@ -153,18 +166,8 @@ a {
   background-color: #0e606b;
 }
 
-@media only screen and (max-width: 700px) {
-  .projects {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
 
-@media only screen and (max-width: 500px) {
-  .projects {
-    width: 100%;
-  }
-}
+
 
 .clearfix:after {
   content: "";
@@ -186,7 +189,7 @@ a {
 }
 
 .resume {
-  background-color: #ffb3ae;
+  background-color: #f47068;
   flex: 35%;
   justify-content: space-around;
 }
@@ -197,7 +200,8 @@ a {
   align-items: center;
   flex: 70%;
   justify-content: left;
-  background-color: #f47068;
+  background-color: #ffb3ae;
+
 }
 
 .contact-links {
@@ -207,6 +211,7 @@ a {
   justify-content: space-evenly;
   flex: 75%;
 }
+
 .contact h2 {
   flex: 25% ;
   margin: 1%;
@@ -215,3 +220,48 @@ a {
   margin: 1%;
 }
 
+
+@media only screen and (max-width: 700px) {
+  header, .nav-items, .about-container, .page-section-contact {
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .nav-items li {
+    margin: 5px 0; /* Add space between menu items */
+  }
+
+  .about-me, .contact, .resume {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .projects {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+  .project-content h3 {
+    font-size: large; /* Adjust font size */
+    /* Other styles if needed */
+  }
+  .proce {
+    width: 100%; /* Adjust the width of project items */
+  }
+
+  h1, h2, h3 {
+    font-size: smaller; /* Adjust font sizes for readability */
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* Further adjustments for smaller screens */
+  .projects {
+    width: 100%;
+  }
+  .project-content h3 {
+    font-size: smaller; 
+    line-height: 1.2; 
+    left: 2%; /* Further adjusted left position */
+    top: 10%;
+  }
+}
