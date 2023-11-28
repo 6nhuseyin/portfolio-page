@@ -66,7 +66,7 @@
   - [x] focus on desktop screen layout.
   - [x] **agile review:** assess css for responsive design and refine as needed.
 
-- [ ] **consolidate and organize css**
+- [x] **consolidate and organize css**
 
   - [ ] refactor css selectors and properties for efficiency.
   - [ ] organize css to match html structure.
