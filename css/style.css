@@ -11,6 +11,7 @@ body {
   background-color: #fff4f1;
 }
 
+/* Anchor tag style: removes default text decoration for a clean look */
 a {  text-decoration: none; }
 
 h1,h2,h3,h4,h5,h6 {
@@ -18,6 +19,7 @@ h1,h2,h3,h4,h5,h6 {
   color: rgb(33, 40, 63);
 }
 
+/* Image style: centers images and sets size */
 img {
   display: block;
   height: 135px;
@@ -58,6 +60,7 @@ header {
   color: #fff;
 }
 
+/* Navigation item styles: flex layout for horizontal alignment */
 .nav-items {
   flex: 2;
   display: flex;
@@ -90,16 +93,15 @@ header {
   flex: 1;
 }
 
+/* Works Section */
 .page-wrapper {
   width: 100%;
   text-align: center;
 }
 
-/* Works Section */
-
 .projects {
-  float: left;
-  width: 100%;
+  display: flex; /* Changed to flex for better responsiveness */
+  flex-wrap: wrap; /* Allows wrapping of child elements */
 }
 
 .project-content {
@@ -177,11 +179,9 @@ header {
 .resume {
   background-color: #f47068;
   flex: 35%;
-  justify-content: space-around;
 }
 
 .contact {
-  display: flex;
   flex-direction: row;
   align-items: center;
   flex: 70%;
@@ -208,7 +208,7 @@ header {
   margin: 1%;
 }
 
-/* Further adjustments for smaller screens than 700px */
+/* Further adjustments for smaller screens than 700px. changes layout to column */
 
 @media only screen and (max-width: 700px) {
   header,
